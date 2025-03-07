@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="85" height="100" viewBox="0 0 85 100">
+  <g>
+    <rect x="0" y="40" width="4" height="20" fill="white">
+      <animate attributeName="height" values="20;80;20" dur="1s" repeatCount="indefinite" keyTimes="0;0.5;1"/>
+      <animate attributeName="y" values="40;10;40" dur="1s" repeatCount="indefinite" keyTimes="0;0.5;1"/>
+    </rect>
+    <rect x="9" y="40" width="4" height="20" fill="white">
+      <animate attributeName="height" values="20;70;20" dur="1s" repeatCount="indefinite" keyTimes="0;0.5;1"/>
+      <animate attributeName="y" values="40;5;40" dur="1s" repeatCount="indefinite" keyTimes="0;0.5;1"/>
+    </rect>
+    <rect x="18" y="40" width="4" height="20" fill="white">
+      <animate attributeName="height" values="20;90;20" dur="1s" repeatCount="indefinite" keyTimes="0;0.5;1"/>
+      <animate attributeName="y" values="40;15;40" dur="1s" repeatCount="indefinite" keyTimes="0;0.5;1"/>
+    </rect>
+    <rect x="27" y="40" width="4" height="20" fill="white">
+      <animate attributeName="height" values="20;60;20" dur="1s" repeatCount="indefinite" keyTimes="0;0.5;1"/>
+      <animate attributeName="y" values="40;25;40" dur="1s" repeatCount="indefinite" keyTimes="0;0.5;1"/>
+    </rect>
+    <rect x="36" y="40" width="4" height="20" fill="white">
+      <animate attributeName="height" values="20;100;20" dur="1s" repeatCount="indefinite" keyTimes="0;0.5;1"/>
+      <animate attributeName="y" values="40;5;40" dur="1s" repeatCount="indefinite" keyTimes="0;0.5;1"/>
+    </rect>
+    <rect x="45" y="40" width="4" height="20" fill="white">
+      <animate attributeName="height" values="20;50;20" dur="1s" repeatCount="indefinite" keyTimes="0;0.5;1"/>
+      <animate attributeName="y" values="40;30;40" dur="1s" repeatCount="indefinite" keyTimes="0;0.5;1"/>
+    </rect>
+    <rect x="54" y="40" width="4" height="20" fill="white">
+      <animate attributeName="height" values="20;80;20" dur="1s" repeatCount="indefinite" keyTimes="0;0.5;1"/>
+      <animate attributeName="y" values="40;20;40" dur="1s" repeatCount="indefinite" keyTimes="0;0.5;1"/>
+    </rect>
+    <rect x="63" y="40" width="4" height="20" fill="white">
+      <animate attributeName="height" values="20;70;20" dur="1s" repeatCount="indefinite" keyTimes="0;0.5;1"/>
+      <animate attributeName="y" values="40;15;40" dur="1s" repeatCount="indefinite" keyTimes="0;0.5;1"/>
+    </rect>
+    <rect x="72" y="40" width="4" height="20" fill="white">
+      <animate attributeName="height" values="20;60;20" dur="1s" repeatCount="indefinite" keyTimes="0;0.5;1"/>
+      <animate attributeName="y" values="40;10;40" dur="1s" repeatCount="indefinite" keyTimes="0;0.5;1"/>
+    </rect>
+    <rect x="81" y="40" width="4" height="20" fill="white">
+      <animate attributeName="height" values="20;90;20" dur="1s" repeatCount="indefinite" keyTimes="0;0.5;1"/>
+      <animate attributeName="y" values="40;5;40" dur="1s" repeatCount="indefinite" keyTimes="0;0.5;1"/>
+    </rect>
+  </g>
+</svg>

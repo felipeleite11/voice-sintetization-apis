@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<script src="https://cdn.jsdelivr.net/npm/axios@1.8.1/dist/axios.min.js"></script>
+</head>
+<body>
+
+	<button onclick="teste()">Testar</button>
+
+	<script>
+		async function teste() {
+			const { data } = await axios.post('http://localhost:3000/eleven-labs', {
+				text: 'Meu texto enviado do navegador deu certo!'
+			}, {
+				responseType: 'blob'
+			})
+			
+			const link = document.createElement('a')
+			link.href = URL.createObjectURL(data)
+			link.download = 'result.mp3'
+			document.body.appendChild(link)
+			link.click()
+			document.body.removeChild(link)
+		}
+	</script>
+</body>
+</html>
